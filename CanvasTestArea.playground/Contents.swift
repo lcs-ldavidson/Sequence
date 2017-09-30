@@ -34,6 +34,56 @@ canvas.fillColor = Color.white
 
 canvas.borderColor = Color.white
 
+canvas.lineColor = Color.yellow
+
+canvas.defaultLineWidth = 4
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 0, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 300, toY: 250)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 50, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 100, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 150, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 200, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 250, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 300, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 300, toY: 125)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 300, toY: 62)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 300, toY: 187)
+
+
+
+
+
+
+//orange lines
+
+canvas.lineColor = Color.orange
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 25, toY: 0  )
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 75, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 125, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: 175, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 250, toX: <#T##Int#>, toY: <#T##Int#>)
+
+
+
+
+
+
 canvas.drawEllipse(centreX: 270, centreY: 250, width: 75, height: 75)
 
 canvas.drawEllipse(centreX: 300, centreY: 215, width: 75, height: 75)
@@ -41,9 +91,8 @@ canvas.drawEllipse(centreX: 300, centreY: 215, width: 75, height: 75)
 canvas.borderColor = Color.yellow
 canvas.fillColor = Color.yellow
 
-canvas.drawEllipse(centreX: 0, centreY: 250, width: 70, height: 70)
+canvas.drawEllipse(centreX: 0, centreY: 250, width: 75, height: 75)
 
-canvas.drawLine(fromX: <#T##Int#>, fromY: <#T##Int#>, toX: <#T##Int#>, toY: <#T##Int#>)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
